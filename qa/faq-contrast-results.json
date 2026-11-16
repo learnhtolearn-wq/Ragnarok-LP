@@ -1,0 +1,87 @@
+{
+  "browser": "157.0.8103.52",
+  "viewports": [
+    {
+      "viewport": "1440x900",
+      "rows": [
+        {
+          "index": 1,
+          "text": "Yes. Steam lists the game as free to play with in-game purchases.",
+          "fontSize": "16px",
+          "minRatio": 9.35,
+          "threshold": 4.5,
+          "wcagAA": "PASS",
+          "samples": 2811
+        },
+        {
+          "index": 2,
+          "text": "Yes. The game is available on PC through Steam. A Gravity account is required through the game launcher.",
+          "fontSize": "16px",
+          "minRatio": 9.35,
+          "threshold": 4.5,
+          "wcagAA": "PASS",
+          "samples": 4571
+        },
+        {
+          "index": 3,
+          "text": "Steam lists 30 GB of available storage, 12 GB RAM minimum, and 16 GB RAM recommended.",
+          "fontSize": "16px",
+          "minRatio": 9.35,
+          "threshold": 4.5,
+          "wcagAA": "PASS",
+          "samples": 4071
+        },
+        {
+          "index": 4,
+          "text": "Steam lists English, Indonesian, Thai, and Simplified Chinese for interface, full audio, and subtitles.",
+          "fontSize": "16px",
+          "minRatio": 9.35,
+          "threshold": 4.5,
+          "wcagAA": "PASS",
+          "samples": 4344
+        }
+      ]
+    },
+    {
+      "viewport": "390x844",
+      "rows": [
+        {
+          "index": 1,
+          "text": "Yes. Steam lists the game as free to play with in-game purchases.",
+          "fontSize": "16px",
+          "minRatio": 9.35,
+          "threshold": 4.5,
+          "wcagAA": "PASS",
+          "samples": 2837
+        },
+        {
+          "index": 2,
+          "text": "Yes. The game is available on PC through Steam. A Gravity account is required through the game launcher.",
+          "fontSize": "16px",
+          "minRatio": 9.35,
+          "threshold": 4.5,
+          "wcagAA": "PASS",
+          "samples": 4583
+        },
+        {
+          "index": 3,
+          "text": "Steam lists 30 GB of available storage, 12 GB RAM minimum, and 16 GB RAM recommended.",
+          "fontSize": "16px",
+          "minRatio": 9.35,
+          "threshold": 4.5,
+          "wcagAA": "PASS",
+          "samples": 4064
+        },
+        {
+          "index": 4,
+          "text": "Steam lists English, Indonesian, Thai, and Simplified Chinese for interface, full audio, and subtitles.",
+          "fontSize": "16px",
+          "minRatio": 9.35,
+          "threshold": 4.5,
+          "wcagAA": "PASS",
+          "samples": 4307
+        }
+      ]
+    }
+  ]
+}

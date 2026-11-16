@@ -1,0 +1,9 @@
+.vercel/
+.env
+.env.*
+qa/.playwright-runtime/
+qa/node_modules/
+qa/private_context_qa.cjs
+qa/private-context-qa.json
+node_modules/
+*.log

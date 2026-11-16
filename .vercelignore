@@ -1,0 +1,14 @@
+qa/
+qa-screenshots/
+.git/
+.agents/
+.codex/
+.aws/
+.sixth/
+.vercel/
+.env
+.env.*
+*.md
+assets/originals/
+assets/manifest.csv
+phase3_test.ps1

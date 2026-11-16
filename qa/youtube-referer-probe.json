@@ -1,0 +1,85 @@
+{
+  "chromium": "157.0.8103.52",
+  "localDesktop": {
+    "url": "http://127.0.0.1:8767/",
+    "pageStatus": 200,
+    "iframeRequest": {
+      "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+      "headers": {
+        "referer": "http://127.0.0.1:8767/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      }
+    },
+    "player": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 0.510108,
+      "dimensions": "854x480"
+    },
+    "consoleErrors": [],
+    "playButtonVisible": true,
+    "iframeAttributes": {
+      "referrerpolicy": "strict-origin-when-cross-origin",
+      "property": "strict-origin-when-cross-origin",
+      "src": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+      "title": "Ragnarok: The New World | First Global Full Gameplay Trailer Released"
+    }
+  },
+  "localMobile": {
+    "url": "http://127.0.0.1:8767/",
+    "pageStatus": 200,
+    "iframeRequest": {
+      "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+      "headers": {
+        "referer": "http://127.0.0.1:8767/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      }
+    },
+    "player": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 0.504285,
+      "dimensions": "854x480"
+    },
+    "consoleErrors": [],
+    "playButtonVisible": true,
+    "iframeAttributes": {
+      "referrerpolicy": "strict-origin-when-cross-origin",
+      "property": "strict-origin-when-cross-origin",
+      "src": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+      "title": "Ragnarok: The New World | First Global Full Gameplay Trailer Released"
+    }
+  },
+  "fileDesktop": {
+    "url": "file://C:/Users/PC/Downloads/Antigravity_Projects/Ragnarok_TAF2/index.html",
+    "pageStatus": 200,
+    "iframeRequest": {
+      "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      }
+    },
+    "player": null,
+    "consoleErrors": [],
+    "playButtonVisible": true,
+    "iframeAttributes": {
+      "referrerpolicy": "strict-origin-when-cross-origin",
+      "property": "strict-origin-when-cross-origin",
+      "src": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+      "title": "Ragnarok: The New World | First Global Full Gameplay Trailer Released"
+    },
+    "error": "frame.waitForFunction: Timeout 20000ms exceeded."
+  }
+}

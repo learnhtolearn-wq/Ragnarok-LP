@@ -1,0 +1,69 @@
+{
+  "videoUrl": "https://www.youtube.com/watch?v=KVHa83JkUV0",
+  "httpStatus": 200,
+  "navigationError": null,
+  "browser": "157.0.8103.52",
+  "pageInfo": {
+    "title": "Ragnarok: The New World｜First Global Full Gameplay Trailer Released - YouTube",
+    "channel": null,
+    "videoTitle": null,
+    "videoPresent": true,
+    "playerError": null
+  },
+  "playback": {
+    "attempted": true,
+    "result": null,
+    "currentTime": 7.378447,
+    "videoSize": {
+      "width": 854,
+      "height": 480,
+      "readyState": 4
+    }
+  },
+  "thumbnailVariants": [
+    {
+      "name": "maxresdefault",
+      "url": "https://i.ytimg.com/vi/KVHa83JkUV0/maxresdefault.jpg",
+      "status": 404,
+      "error": null,
+      "naturalWidth": 120,
+      "naturalHeight": 90
+    },
+    {
+      "name": "hq720",
+      "url": "https://i.ytimg.com/vi/KVHa83JkUV0/hq720.jpg",
+      "status": 404,
+      "error": null,
+      "naturalWidth": 120,
+      "naturalHeight": 90
+    },
+    {
+      "name": "sddefault",
+      "url": "https://i.ytimg.com/vi/KVHa83JkUV0/sddefault.jpg",
+      "status": 200,
+      "error": null,
+      "naturalWidth": 640,
+      "naturalHeight": 480
+    },
+    {
+      "name": "hqdefault",
+      "url": "https://i.ytimg.com/vi/KVHa83JkUV0/hqdefault.jpg",
+      "status": 200,
+      "error": null,
+      "naturalWidth": 480,
+      "naturalHeight": 360
+    }
+  ],
+  "failedRequests": [
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/962985656/?backend=innertube&cname=1&cver=2_20261112&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112%3Bptype%3Df_view%3Btype%3Dview%3Butuid%3DAe3TDhXl1borBtq7bb8CaQ%3Butvid%3DKVHa83JkUV0&foc_id=Ae3TDhXl1borBtq7bb8CaQ&label=followon_view&ptype=f_view&random=493033238&utuid=Ae3TDhXl1borBtq7bb8CaQ&cv_attributed=0&is_vtc=0&random=3629379180",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "https://www.youtube.com/",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "screenshot": "qa\\screenshots\\official-trailer-source-review.png",
+  "posterScreenshot": "qa\\screenshots\\official-trailer-poster-review.png"
+}

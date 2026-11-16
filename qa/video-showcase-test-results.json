@@ -1,0 +1,835 @@
+{
+  "playwrightVersion": "1.65.1",
+  "axeCoreVersion": "4.14.0",
+  "viewports": [
+    {
+      "name": "desktop-1920",
+      "dimensions": "1920x1080",
+      "pageStatus": 200,
+      "orderedBetweenHeroAndGameplay": true,
+      "iframeAbsentUntilActivation": true,
+      "keyboardActivation": true,
+      "iframeAttrs": {
+        "src": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+        "title": "Ragnarok: The New World | First Global Full Gameplay Trailer Released",
+        "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "playerPlaybackState": {
+        "readyState": 4,
+        "currentTime": 0.511226,
+        "paused": false,
+        "dimensions": "854x480"
+      },
+      "facadeRatio": {
+        "width": 1120,
+        "height": 630,
+        "ratio": 1.7777777777777777,
+        "cssAspectRatio": "16 / 9"
+      },
+      "postActivationViewportWidth": 1120,
+      "originalEightSectionCount": 8,
+      "fallbackLink": {
+        "href": "https://www.youtube.com/watch?v=KVHa83JkUV0",
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      "axe": {
+        "beforeViolations": [],
+        "afterViolations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "description": "Elements must only use supported ARIA attributes",
+            "nodes": [
+              {
+                "target": [
+                  "iframe",
+                  ".ytmVideoInfoVideoTitle"
+                ],
+                "html": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=KVHa83JkUV0\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">Ragnarok: The New World｜First Global Full Gameplay Trailer Released</span></a>",
+                "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-level=\"2\""
+              }
+            ]
+          },
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "description": "Elements must only use permitted ARIA attributes",
+            "nodes": [
+              {
+                "target": [
+                  "iframe",
+                  "#movie_player"
+                ],
+                "html": "<div class=\"html5-video-player y...\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/player/fad7e4e9/p...\" aria-label=\"YouTube Video Player\">",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+              }
+            ]
+          }
+        ],
+        "afterHostViolations": [],
+        "incompleteBefore": 42,
+        "incompleteAfter": 59,
+        "incompleteAfterHost": 41,
+        "passed": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://yt3.ggpht.com/c7qPSIg-8txLG4Tte22549Pfsqpp0wEGY2zoK_QG1FoKiCuwhMhywmRCoyQ194TS_eaSUGmt=s68-c-k-c0x00ffffff-no-rj",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "httpErrors": [],
+      "youtubeRequests": [
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi/KVHa83JkUV0/sddefault.jpg"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/player/fad7e4e9/www-player.css"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/ss/k=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/br=1/rs=AGKMywEZYpvUIfT_grF6IvzhDKapDmM9vw/m=root,base"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/am=AAAAABAAGAM/d=1/excm=base,root/br=1/rs=AGKMywFJ7awhRgUuA-_WF1IbuEN33vmYEA/m=root,base"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/player/fad7e4e9/player_embed.vflset/en_US/base.js"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/ck=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywH2F1qjxuFC4iegObv4eqW5qnKL-g/m=r78Drb"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/navigation/resolve_url?prettyPrint=false"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794751987&ei=kmn5aq3GOP2ep-oP75Hg2QE&ip=105.190.211.133&id=o-AD3ycGYJ-u2n7rwNt1chXX2LZfjKY29b5ykYcMbomNUs&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=138&met=1794730386%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=876875&spc=nfZ8Ziy9Qg1tye9D73MD1Q6t74dfQEckbYEdiF-xIFJONE6_wgVTuuU3DQTd9wPLw3tM6pY&svpuc=1&ns=uYH2rWCmIOAk0EuHS7ne3fUa&sabr=1&rqh=1&mt=1794729733&fvip=1&epbp=1&keepalive=yes&fexp=51565116%2C52323633&c=WEB_EMBEDDED_PLAYER&n=NiXFvNq0xDs9AA&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRQIhAIAFY7Lpb9ZbL0PP8_32Y5e8N0G8MlGr8M-LJQ4lT7U5AiATSgjQaTJEUAwCzlzn58r4lRJ2EOut8_kzHED0RTloog%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAJm-pdRlzLh9oUpi49SXtelKHR0SPeLsqc6EjeptRiUKAiEAtQeER0T6gzxV1ELgYGBLK9Px7OydNyJbTTkzDfw0zCk%3D&cpn=hkw-l-fJEJjjqu1w&cver=2.20261113.01.00&rn=1&alr=yes"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/qoe?fmt=397&afmt=251&cpn=hkw-l-fJEJjjqu1w&el=embedded&ns=yt&fexp=v1%2C100673025%2C1884%2C364%2C-76827061%2C156432%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13016%2C15426%2C661%2C9404%2C5382%2C18444%2C9500%2C55471%2C3015%2C38191%2C20589%2C4200%2C39294%2C52351%2C6664%2C1168%2C8131%2C1538%2C28667%2C4115%2C11462%2C12283%2C4%2C34001%2C13330%2C24248%2C2291%2C3844%2C18498%2C6470%2C22506%2C2513%2C1180%2C33293%2C18134%2C3%2C5701%2C6957%2C2008%2C120%2C21711%2C4594%2C9280%2C760%2C967%2C7237%2C2266%2C4783%2C8893%2C6809%2C7810%2C9786%2C2263%2C6635%2C2786%2C635%2C1814%2C4270%2C451%2C3811%2C750%2C1626%2C442%2C4822%2C974%2C2528%2C3124%2C1646%2C10675%2C150%2C7405%2C4565%2C490%2C7778%2C3040%2C1575%2C580%2C205%2C1799%2C1385%2C571%2C12921%2C816%2C1685%2C6968%2C12%2C43%2C1054%2C571%2C1599%2C28%2C98%2C678%2C5983%2C3213%2C3323%2C14456%2C4858&cl=1018714565&seq=1&docid=KVHa83JkUV0&ei=kmn5aq3GOP2ep-oP75Hg2QE&event=streamingstats&plid=AAZgTDsuUEkUlwe_&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.133:B,1.022:B,1.022:B&cat=streaming,sabr&cmt=0.133:0.000,1.022:0.000&afs=1.009:251;CggKA2RyYxIBMQ::i:fl.-14;tl.-14;vg.-4.359999999999999;nm.1;sms.2:CAEoAQ&vfs=1.022:397:398::a:sms.2:CAEoAQ&view=1.022:1118:628&bwm=1.022:188704:0.415&bwe=1.022:111411&bat=1.022:0.9:0&vis=1.022:0&bh=1.022:0.000&qclc=ChBoa3ctbC1mSkVKampxdTF3EAE"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.gstatic.com/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_max/v3/24px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/sddefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+        },
+        {
+          "status": 200,
+          "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/ck=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywH2F1qjxuFC4iegObv4eqW5qnKL-g/m=Nuilue"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/-b6qfLpfPJI/default.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794751987&ei=kmn5aq3GOP2ep-oP75Hg2QE&ip=105.190.211.133&id=o-AD3ycGYJ-u2n7rwNt1chXX2LZfjKY29b5ykYcMbomNUs&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=138&met=1794730386%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=876875&spc=nfZ8Ziy9Qg1tye9D73MD1Q6t74dfQEckbYEdiF-xIFJONE6_wgVTuuU3DQTd9wPLw3tM6pY&svpuc=1&ns=uYH2rWCmIOAk0EuHS7ne3fUa&sabr=1&rqh=1&mt=1794729733&fvip=1&epbp=1&keepalive=yes&fexp=51565116%2C52323633&c=WEB_EMBEDDED_PLAYER&n=NiXFvNq0xDs9AA&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRQIhAIAFY7Lpb9ZbL0PP8_32Y5e8N0G8MlGr8M-LJQ4lT7U5AiATSgjQaTJEUAwCzlzn58r4lRJ2EOut8_kzHED0RTloog%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAJm-pdRlzLh9oUpi49SXtelKHR0SPeLsqc6EjeptRiUKAiEAtQeER0T6gzxV1ELgYGBLK9Px7OydNyJbTTkzDfw0zCk%3D&cpn=hkw-l-fJEJjjqu1w&cver=2.20261113.01.00&rn=2&alr=yes"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/mqdefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/mqdefault.webp"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/qoe?fmt=398&afmt=251&cpn=hkw-l-fJEJjjqu1w&el=embedded&ns=yt&fexp=v1%2C100673025%2C1884%2C364%2C-76827061%2C156432%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13016%2C15426%2C661%2C9404%2C5382%2C18444%2C9500%2C55471%2C3015%2C38191%2C20589%2C4200%2C39294%2C52351%2C6664%2C1168%2C8131%2C1538%2C28667%2C4115%2C11462%2C12283%2C4%2C34001%2C13330%2C24248%2C2291%2C3844%2C18498%2C6470%2C22506%2C2513%2C1180%2C33293%2C18134%2C3%2C5701%2C6957%2C2008%2C120%2C21711%2C4594%2C9280%2C760%2C967%2C7237%2C2266%2C4783%2C8893%2C6809%2C7810%2C9786%2C2263%2C6635%2C2786%2C635%2C1814%2C4270%2C451%2C3811%2C750%2C1626%2C442%2C4822%2C974%2C2528%2C3124%2C1646%2C10675%2C150%2C7405%2C4565%2C490%2C7778%2C3040%2C1575%2C580%2C205%2C1799%2C1385%2C571%2C12921%2C816%2C1685%2C6968%2C12%2C43%2C1054%2C571%2C1599%2C28%2C98%2C678%2C5983%2C3213%2C3323%2C14456%2C4858&cl=1018714565&seq=2&docid=KVHa83JkUV0&ei=kmn5aq3GOP2ep-oP75Hg2QE&event=streamingstats&plid=AAZgTDsuUEkUlwe_&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&user_intent=0.023&vfs=1.690:398:398:397:a:CAIoAQ&view=1.690:1118:628&vps=1.690:B,1.690:B&bwm=1.690:1398274:0.667&bwe=1.690:1583662&bat=1.690:0.9:0&cmt=1.690:0.000&bh=1.690:18.033&df=1.690:0&qclc=ChBoa3ctbC1mSkVKampxdTF3EAI"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/generate_204?-obQ1w"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/ptracking?html5=1&video_id=KVHa83JkUV0&cpn=hkw-l-fJEJjjqu1w&ei=kmn5aq3GOP2ep-oP75Hg2QE&ptk=youtube_none&pltype=contentugc"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/playback?ns=yt&el=embedded&cpn=hkw-l-fJEJjjqu1w&ver=2&cmt=0.005&fmt=398&fs=0&rt=1.839&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=1896&cl=1018714565&mos=0&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&epm=1&hl=en_US&cr=MA&len=151&fexp=v1%2C100673025%2C1884%2C364%2C-76827061%2C156432%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13016%2C15426%2C661%2C9404%2C5382%2C18444%2C9500%2C55471%2C3015%2C38191%2C20589%2C4200%2C39294%2C52351%2C6664%2C1168%2C8131%2C1538%2C28667%2C4115%2C11462%2C12283%2C4%2C34001%2C13330%2C24248%2C2291%2C3844%2C18498%2C6470%2C22506%2C2513%2C1180%2C33293%2C18134%2C3%2C5701%2C6957%2C2008%2C120%2C21711%2C4594%2C9280%2C760%2C967%2C7237%2C2266%2C4783%2C8893%2C6809%2C7810%2C9786%2C2263%2C6635%2C2786%2C635%2C1814%2C4270%2C451%2C3811%2C750%2C1626%2C442%2C4822%2C974%2C2528%2C3124%2C1646%2C10675%2C150%2C7405%2C4565%2C490%2C7778%2C3040%2C1575%2C580%2C205%2C1799%2C1385%2C571%2C12921%2C816%2C1685%2C6968%2C12%2C43%2C1054%2C571%2C1599%2C28%2C98%2C678%2C5983%2C3213%2C3323%2C14456%2C4858&rtn=9&afmt=251&size=1118%3A628&inview=0&muted=0&docid=KVHa83JkUV0&ei=kmn5aq3GOP2ep-oP75Hg2QE&plid=AAZgTDsuUEkUlwe_&referrer=https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2FKVHa83JkUV0%3Fautoplay%3D1%26playsinline%3D1%26rel%3D0&of=BxxvRzYmLqFg7zqpbtdwaw&vm=CAEQABgEOjJBSHFpSlRMS24ycm4yVXlDNTFNaHRXYmlEUDhoNEhlcXh1UVZwa25PaU5DOW9nU0F6Z2JoQUJjV25zUUNkcEpBMXhlSEJKeHdSdU93amdSVlRFVWVVdVJubFEwdVZnRnBUT1dQMDV4bzdtNjN0RjN5RHVxVmxXdmdod3pzOHJYQXBiLTlSQUF2MkR1YU44OXhEbmtyWXpsbzdqaFk"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/embed/establish_zw"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/atr?ns=yt&el=embedded&cpn=hkw-l-fJEJjjqu1w&ver=2&cmt=3.005&fmt=398&fs=0&rt=4.854&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=4912&cl=1018714565&mos=0&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&epm=1&hl=en_US&cr=MA&len=151&fexp=v1%2C100673025%2C1884%2C364%2C-76827061%2C156432%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13016%2C15426%2C661%2C9404%2C5382%2C18444%2C9500%2C55471%2C3015%2C38191%2C20589%2C4200%2C39294%2C52351%2C6664%2C1168%2C8131%2C1538%2C28667%2C4115%2C11462%2C12283%2C4%2C34001%2C13330%2C24248%2C2291%2C3844%2C18498%2C6470%2C22506%2C2513%2C1180%2C33293%2C18134%2C3%2C5701%2C6957%2C2008%2C120%2C21711%2C4594%2C9280%2C760%2C967%2C7237%2C2266%2C4783%2C8893%2C6809%2C7810%2C9786%2C2263%2C6635%2C2786%2C635%2C1814%2C4270%2C451%2C3811%2C750%2C1626%2C442%2C4822%2C974%2C2528%2C3124%2C1646%2C10675%2C150%2C7405%2C4565%2C490%2C7778%2C3040%2C1575%2C580%2C205%2C1799%2C1385%2C571%2C12921%2C816%2C1685%2C6968%2C12%2C43%2C1054%2C571%2C1599%2C28%2C98%2C678%2C5983%2C3213%2C3323%2C14456%2C4858&afmt=251&muted=0&docid=KVHa83JkUV0&ei=kmn5aq3GOP2ep-oP75Hg2QE&plid=AAZgTDsuUEkUlwe_&vm=CAEQABgEOjJBSHFpSlRMS24ycm4yVXlDNTFNaHRXYmlEUDhoNEhlcXh1UVZwa25PaU5DOW9nU0F6Z2JoQUJjV25zUUNkcEpBMXhlSEJKeHdSdU93amdSVlRFVWVVdVJubFEwdVZnRnBUT1dQMDV4bzdtNjN0RjN5RHVxVmxXdmdod3pzOHJYQXBiLTlSQUF2MkR1YU44OXhEbmtyWXpsbzdqaFk"
+        }
+      ],
+      "screenshots": {
+        "fullPageFacade": "qa\\screenshots\\video-showcase-desktop-1920.png",
+        "showcaseFacade": "qa\\screenshots\\video-block-desktop-1920.png",
+        "showcasePlaying": "qa\\screenshots\\video-player-desktop-1920.png"
+      }
+    },
+    {
+      "name": "desktop-1440",
+      "dimensions": "1440x900",
+      "pageStatus": 200,
+      "orderedBetweenHeroAndGameplay": true,
+      "iframeAbsentUntilActivation": true,
+      "keyboardActivation": true,
+      "iframeAttrs": {
+        "src": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+        "title": "Ragnarok: The New World | First Global Full Gameplay Trailer Released",
+        "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "playerPlaybackState": {
+        "readyState": 4,
+        "currentTime": 0.590109,
+        "paused": false,
+        "dimensions": "854x480"
+      },
+      "facadeRatio": {
+        "width": 1120,
+        "height": 630,
+        "ratio": 1.7777777777777777,
+        "cssAspectRatio": "16 / 9"
+      },
+      "postActivationViewportWidth": 1120,
+      "originalEightSectionCount": 8,
+      "fallbackLink": {
+        "href": "https://www.youtube.com/watch?v=KVHa83JkUV0",
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      "axe": {
+        "beforeViolations": [],
+        "afterViolations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "description": "Elements must only use supported ARIA attributes",
+            "nodes": [
+              {
+                "target": [
+                  "iframe",
+                  ".ytmVideoInfoVideoTitle"
+                ],
+                "html": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=KVHa83JkUV0\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">Ragnarok: The New World｜First Global Full Gameplay Trailer Released</span></a>",
+                "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-level=\"2\""
+              }
+            ]
+          },
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "description": "Elements must only use permitted ARIA attributes",
+            "nodes": [
+              {
+                "target": [
+                  "iframe",
+                  "#movie_player"
+                ],
+                "html": "<div class=\"html5-video-player y...\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/player/fad7e4e9/p...\" aria-label=\"YouTube Video Player\">",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+              }
+            ]
+          }
+        ],
+        "afterHostViolations": [],
+        "incompleteBefore": 42,
+        "incompleteAfter": 59,
+        "incompleteAfterHost": 41,
+        "passed": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://yt3.ggpht.com/c7qPSIg-8txLG4Tte22549Pfsqpp0wEGY2zoK_QG1FoKiCuwhMhywmRCoyQ194TS_eaSUGmt=s68-c-k-c0x00ffffff-no-rj",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "httpErrors": [],
+      "youtubeRequests": [
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi/KVHa83JkUV0/sddefault.jpg"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/player/fad7e4e9/www-player.css"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/ss/k=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/br=1/rs=AGKMywEZYpvUIfT_grF6IvzhDKapDmM9vw/m=root,base"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/am=AAAAABAAGAM/d=1/excm=base,root/br=1/rs=AGKMywFJ7awhRgUuA-_WF1IbuEN33vmYEA/m=root,base"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/player/fad7e4e9/player_embed.vflset/en_US/base.js"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/navigation/resolve_url?prettyPrint=false"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/ck=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywH2F1qjxuFC4iegObv4eqW5qnKL-g/m=r78Drb"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752006&ei=pmn5aqPOA6LQp-oP1IqYYQ&ip=105.190.211.133&id=o-AA2bcNRfhID85qjh8EVYT_KoVHSOMK3Lp71BhgJYUMw2&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=255&met=1794730406%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-h5q7kne6&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZoGov3Y6SgBOFxnY1anInwxen9G3oa4WUw2PCtW1I869ib-HrmjatK584SZaLI9dyLg&svpuc=1&ns=hM0Xne8o6DmtglojWdJjTZwa&sabr=1&rqh=1&mt=1794729961&fvip=5&epbp=1&keepalive=yes&fexp=51565116%2C52323633&c=WEB_EMBEDDED_PLAYER&n=VkR-2LKPl7uNuA&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRQIgeKFmhz7MrHN-5oY4q1gfjux0Crmqikvcuz5jMZfHEYgCIQCgHKR2_E23BlvGPROG-lm_JsHlrueqY1M80RQyDKR3TA%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAIlqk-T6heGfh3XKxmqRpdlnT5zxCdrDnrbo28W2I77ZAiEAhvX-BTE3uOreKtq9_PIiYx69Xijl7G7qHJXDu6_0f9U%3D&cpn=4LUIvqCXWFV9UT3S&cver=2.20261113.01.00&rn=1&alr=yes"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/qoe?fmt=397&afmt=251&cpn=4LUIvqCXWFV9UT3S&el=embedded&ns=yt&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13015%2C11422%2C4005%2C661%2C9404%2C23826%2C9500%2C55472%2C41206%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1538%2C28667%2C4115%2C11462%2C45931%2C357%2C10303%2C3027%2C24247%2C2292%2C3844%2C18498%2C28976%2C2513%2C1180%2C11205%2C3979%2C18109%2C18133%2C4%2C5701%2C6957%2C2008%2C120%2C21711%2C4594%2C9280%2C760%2C8204%2C2266%2C4783%2C8893%2C10735%2C3884%2C9786%2C2264%2C6634%2C2786%2C635%2C1814%2C4270%2C451%2C3811%2C750%2C1627%2C441%2C4822%2C973%2C852%2C1677%2C3124%2C1646%2C6330%2C4345%2C148%2C5003%2C2404%2C4565%2C490%2C7778%2C5195%2C206%2C3183%2C567%2C4%2C11041%2C1879%2C817%2C8653%2C11%2C67%2C2%2C204%2C825%2C571%2C1599%2C554%2C250%2C5982%2C25850%2C5122%2C1814&cl=1018714565&seq=1&docid=KVHa83JkUV0&ei=pmn5aqPOA6LQp-oP1IqYYQ&event=streamingstats&plid=AAZgTDxSPxKeo05Q&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.122:B,0.639:B,0.639:B&cat=streaming,sabr&cmt=0.122:0.000,0.639:0.000&afs=0.632:251;CggKA2RyYxIBMQ::i:fl.-14;tl.-14;vg.-4.359999999999999;nm.1;sms.2:CAEoAQ&vfs=0.639:397:398::a:sms.2:CAEoAQ&view=0.639:1118:628&bwm=0.639:264458:0.287&bwe=0.639:108134&bat=0.639:0.9:0&vis=0.639:0&bh=0.639:0.000&qclc=ChA0TFVJdnFDWFdGVjlVVDNTEAE"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_max/v3/24px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.gstatic.com/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/sddefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+        },
+        {
+          "status": 200,
+          "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752006&ei=pmn5aqPOA6LQp-oP1IqYYQ&ip=105.190.211.133&id=o-AA2bcNRfhID85qjh8EVYT_KoVHSOMK3Lp71BhgJYUMw2&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=255&met=1794730406%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-h5q7kne6&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZoGov3Y6SgBOFxnY1anInwxen9G3oa4WUw2PCtW1I869ib-HrmjatK584SZaLI9dyLg&svpuc=1&ns=hM0Xne8o6DmtglojWdJjTZwa&sabr=1&rqh=1&mt=1794729961&fvip=5&epbp=1&keepalive=yes&fexp=51565116%2C52323633&c=WEB_EMBEDDED_PLAYER&n=VkR-2LKPl7uNuA&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRQIgeKFmhz7MrHN-5oY4q1gfjux0Crmqikvcuz5jMZfHEYgCIQCgHKR2_E23BlvGPROG-lm_JsHlrueqY1M80RQyDKR3TA%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAIlqk-T6heGfh3XKxmqRpdlnT5zxCdrDnrbo28W2I77ZAiEAhvX-BTE3uOreKtq9_PIiYx69Xijl7G7qHJXDu6_0f9U%3D&cpn=4LUIvqCXWFV9UT3S&cver=2.20261113.01.00&rn=2&alr=yes"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/mqdefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/mqdefault.webp"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/playback?ns=yt&el=embedded&cpn=4LUIvqCXWFV9UT3S&ver=2&cmt=0.073&fmt=397&fs=0&rt=1.19&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=1240&cl=1018714565&mos=0&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&epm=1&hl=en_US&cr=MA&len=150.061&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13015%2C11422%2C4005%2C661%2C9404%2C23826%2C9500%2C55472%2C41206%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1538%2C28667%2C4115%2C11462%2C45931%2C357%2C10303%2C3027%2C24247%2C2292%2C3844%2C18498%2C28976%2C2513%2C1180%2C11205%2C3979%2C18109%2C18133%2C4%2C5701%2C6957%2C2008%2C120%2C21711%2C4594%2C9280%2C760%2C8204%2C2266%2C4783%2C8893%2C10735%2C3884%2C9786%2C2264%2C6634%2C2786%2C635%2C1814%2C4270%2C451%2C3811%2C750%2C1627%2C441%2C4822%2C973%2C852%2C1677%2C3124%2C1646%2C6330%2C4345%2C148%2C5003%2C2404%2C4565%2C490%2C7778%2C5195%2C206%2C3183%2C567%2C4%2C11041%2C1879%2C817%2C8653%2C11%2C67%2C2%2C204%2C825%2C571%2C1599%2C554%2C250%2C5982%2C25850%2C5122%2C1814&rtn=6&afmt=251&size=1118%3A628&inview=0&muted=0&docid=KVHa83JkUV0&ei=pmn5aqPOA6LQp-oP1IqYYQ&plid=AAZgTDxSPxKeo05Q&referrer=https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2FKVHa83JkUV0%3Fautoplay%3D1%26playsinline%3D1%26rel%3D0&of=BxxvRzYmLqFg7zqpbtdwaw&vm=CAEQABgEOjJBSHFpSlRLa2Qxa0JaazJXV240RllMQ0pHT1dvdFZYUWFsRXNwLVczUE9TTlUweE5aQWJoQUJjV25zVGttRE1wcXl5c0szQkxRZnNuTlZhal9vUVlVbjN2bG5WWWhzWC0tMlRZQmE1TEtWSW1rRXB2YXJ3bTJqdW9jQzhxeHZoajNZRzhVZmlqT19UOTF2bkkzSmlLQThieHB1czM"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/ptracking?html5=1&video_id=KVHa83JkUV0&cpn=4LUIvqCXWFV9UT3S&ei=pmn5aqPOA6LQp-oP1IqYYQ&ptk=youtube_none&pltype=contentugc"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/qoe?fmt=398&afmt=251&cpn=4LUIvqCXWFV9UT3S&el=embedded&ns=yt&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13015%2C11422%2C4005%2C661%2C9404%2C23826%2C9500%2C55472%2C41206%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1538%2C28667%2C4115%2C11462%2C45931%2C357%2C10303%2C3027%2C24247%2C2292%2C3844%2C18498%2C28976%2C2513%2C1180%2C11205%2C3979%2C18109%2C18133%2C4%2C5701%2C6957%2C2008%2C120%2C21711%2C4594%2C9280%2C760%2C8204%2C2266%2C4783%2C8893%2C10735%2C3884%2C9786%2C2264%2C6634%2C2786%2C635%2C1814%2C4270%2C451%2C3811%2C750%2C1627%2C441%2C4822%2C973%2C852%2C1677%2C3124%2C1646%2C6330%2C4345%2C148%2C5003%2C2404%2C4565%2C490%2C7778%2C5195%2C206%2C3183%2C567%2C4%2C11041%2C1879%2C817%2C8653%2C11%2C67%2C2%2C204%2C825%2C571%2C1599%2C554%2C250%2C5982%2C25850%2C5122%2C1814&cl=1018714565&seq=2&docid=KVHa83JkUV0&ei=pmn5aqPOA6LQp-oP1IqYYQ&event=streamingstats&plid=AAZgTDxSPxKeo05Q&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&ctmp=agc:t.661;stnorm.0;env.-14;fml.-14;tmin.-31;tmax.-14;ng.0&bh=1.137:6.800,1.283:17.935&cmt=1.137:0.023,1.283:0.170&vps=1.137:PL,1.283:PL,1.283:PL&user_intent=0.015&vfs=1.283:398:398:397:a:CAIoAQ&view=1.283:1118:628&bwm=1.283:1323752:0.524&bwe=1.283:2332760&bat=1.283:0.9:0&df=1.283:0&qclc=ChA0TFVJdnFDWFdGVjlVVDNTEAI"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/ck=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywH2F1qjxuFC4iegObv4eqW5qnKL-g/m=Nuilue"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/generate_204?YIxdfQ"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/-b6qfLpfPJI/default.webp"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/embed/establish_zw"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/atr?ns=yt&el=embedded&cpn=4LUIvqCXWFV9UT3S&ver=2&cmt=3.09&fmt=398&fs=0&rt=4.204&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=4254&cl=1018714565&mos=0&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&epm=1&hl=en_US&cr=MA&len=151&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13015%2C11422%2C4005%2C661%2C9404%2C23826%2C9500%2C55472%2C41206%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1538%2C28667%2C4115%2C11462%2C45931%2C357%2C10303%2C3027%2C24247%2C2292%2C3844%2C18498%2C28976%2C2513%2C1180%2C11205%2C3979%2C18109%2C18133%2C4%2C5701%2C6957%2C2008%2C120%2C21711%2C4594%2C9280%2C760%2C8204%2C2266%2C4783%2C8893%2C10735%2C3884%2C9786%2C2264%2C6634%2C2786%2C635%2C1814%2C4270%2C451%2C3811%2C750%2C1627%2C441%2C4822%2C973%2C852%2C1677%2C3124%2C1646%2C6330%2C4345%2C148%2C5003%2C2404%2C4565%2C490%2C7778%2C5195%2C206%2C3183%2C567%2C4%2C11041%2C1879%2C817%2C8653%2C11%2C67%2C2%2C204%2C825%2C571%2C1599%2C554%2C250%2C5982%2C25850%2C5122%2C1814&afmt=251&muted=0&docid=KVHa83JkUV0&ei=pmn5aqPOA6LQp-oP1IqYYQ&plid=AAZgTDxSPxKeo05Q&vm=CAEQABgEOjJBSHFpSlRLa2Qxa0JaazJXV240RllMQ0pHT1dvdFZYUWFsRXNwLVczUE9TTlUweE5aQWJoQUJjV25zVGttRE1wcXl5c0szQkxRZnNuTlZhal9vUVlVbjN2bG5WWWhzWC0tMlRZQmE1TEtWSW1rRXB2YXJ3bTJqdW9jQzhxeHZoajNZRzhVZmlqT19UOTF2bkkzSmlLQThieHB1czM"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/watchtime?ns=yt&el=embedded&cpn=4LUIvqCXWFV9UT3S&ver=2&cmt=4.888&fmt=398&fs=0&rt=6.003&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=6053&cl=1018714565&state=playing&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&hl=en_US&cr=MA&len=151&rtn=16&afmt=251&idpj=-6&ldpj=-2&rti=6&size=1118%3A628&inview=0&st=0&et=4.888&muted=0&docid=KVHa83JkUV0&ei=pmn5aqPOA6LQp-oP1IqYYQ&plid=AAZgTDxSPxKeo05Q&referrer=https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2FKVHa83JkUV0%3Fautoplay%3D1%26playsinline%3D1%26rel%3D0&of=BxxvRzYmLqFg7zqpbtdwaw&vm=CAEQABgEOjJBSHFpSlRLa2Qxa0JaazJXV240RllMQ0pHT1dvdFZYUWFsRXNwLVczUE9TTlUweE5aQWJoQUJjV25zVGttRE1wcXl5c0szQkxRZnNuTlZhal9vUVlVbjN2bG5WWWhzWC0tMlRZQmE1TEtWSW1rRXB2YXJ3bTJqdW9jQzhxeHZoajNZRzhVZmlqT19UOTF2bkkzSmlLQThieHB1czM"
+        }
+      ],
+      "screenshots": {
+        "fullPageFacade": "qa\\screenshots\\video-showcase-desktop-1440.png",
+        "showcaseFacade": "qa\\screenshots\\video-block-desktop-1440.png",
+        "showcasePlaying": "qa\\screenshots\\video-player-desktop-1440.png"
+      }
+    },
+    {
+      "name": "mobile-430",
+      "dimensions": "430x932",
+      "pageStatus": 200,
+      "orderedBetweenHeroAndGameplay": true,
+      "iframeAbsentUntilActivation": true,
+      "keyboardActivation": true,
+      "iframeAttrs": {
+        "src": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+        "title": "Ragnarok: The New World | First Global Full Gameplay Trailer Released",
+        "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "playerPlaybackState": {
+        "readyState": 4,
+        "currentTime": 0.509404,
+        "paused": false,
+        "dimensions": "854x480"
+      },
+      "facadeRatio": {
+        "width": 390,
+        "height": 219.375,
+        "ratio": 1.7777777777777777,
+        "cssAspectRatio": "16 / 9"
+      },
+      "postActivationViewportWidth": 390,
+      "originalEightSectionCount": 8,
+      "fallbackLink": {
+        "href": "https://www.youtube.com/watch?v=KVHa83JkUV0",
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      "axe": {
+        "beforeViolations": [],
+        "afterViolations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "description": "Elements must only use supported ARIA attributes",
+            "nodes": [
+              {
+                "target": [
+                  "iframe",
+                  ".ytmVideoInfoVideoTitle"
+                ],
+                "html": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=KVHa83JkUV0\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">Ragnarok: The New World｜First Global Full Gameplay Trailer Released</span></a>",
+                "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-level=\"2\""
+              }
+            ]
+          },
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "description": "Elements must only use permitted ARIA attributes",
+            "nodes": [
+              {
+                "target": [
+                  "iframe",
+                  "#movie_player"
+                ],
+                "html": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color ytp-fit-cover-video ytp-small-mode playing-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/player/fad7e4e9/player_embed.vflset/en_US/base.js\" ...>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+              }
+            ]
+          }
+        ],
+        "afterHostViolations": [],
+        "incompleteBefore": 37,
+        "incompleteAfter": 59,
+        "incompleteAfterHost": 35,
+        "passed": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://yt3.ggpht.com/c7qPSIg-8txLG4Tte22549Pfsqpp0wEGY2zoK_QG1FoKiCuwhMhywmRCoyQ194TS_eaSUGmt=s68-c-k-c0x00ffffff-no-rj",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://yt3.ggpht.com/c7qPSIg-8txLG4Tte22549Pfsqpp0wEGY2zoK_QG1FoKiCuwhMhywmRCoyQ194TS_eaSUGmt=s68-c-k-c0x00ffffff-no-rj",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "httpErrors": [],
+      "youtubeRequests": [
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi/KVHa83JkUV0/sddefault.jpg"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/player/fad7e4e9/www-player.css"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/ss/k=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/br=1/rs=AGKMywEZYpvUIfT_grF6IvzhDKapDmM9vw/m=root,base"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/am=AAAAABAAGAM/d=1/excm=base,root/br=1/rs=AGKMywFJ7awhRgUuA-_WF1IbuEN33vmYEA/m=root,base"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/player/fad7e4e9/player_embed.vflset/en_US/base.js"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/ck=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywH2F1qjxuFC4iegObv4eqW5qnKL-g/m=r78Drb"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752020&ei=tGn5asrhNPXY8uMPuoCL-AY&ip=105.190.211.133&id=o-AFsMJ0BBnaX--grnhr4hR-KnvG4XpZNqZK7GJ4NdlfIR&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=264&met=1794730420%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZpTqqwGOYYkYHzvdxgE2WhooYOZI8C4PGA2f-ZOlHRbCFjtwco-TuR4nsM2O6eYH1uI&svpuc=1&ns=6i8LnSX2K8MZLdD3U9mKmsIa&sabr=1&rqh=1&mt=1794729961&fvip=1&epbp=1&keepalive=yes&fexp=51565115%2C52323633&c=WEB_EMBEDDED_PLAYER&n=tq9ITpSXQtY1Kw&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRgIhAN_y0HX5SzZcRbDWwrOFLWcQZUuvNVnH3cH2KA9VT9xLAiEApkff7tLrhe_hObS5spQ3HLlonyETHRE90fgQeo3wxNU%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAIdEY6LGMMc1RT2GHnVGvQxhpxUt-D1su30QQzNY2ECKAiEA4gCl5EDPsER1pYXJUmM3trGvq26ZI-wybFT5PIZOYlA%3D&cpn=ptqnJoxcavtuyx5V&cver=2.20261113.01.00&rn=1&alr=yes"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_max/v3/24px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.gstatic.com/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/qoe?fmt=397&afmt=251&cpn=ptqnJoxcavtuyx5V&el=embedded&ns=yt&fexp=v1%2C100673025%2C1884%2C364%2C-76670629%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C69796%2C30906%2C15105%2C25059%2C4174%2C30446%2C18706%2C26008%2C13016%2C11422%2C4004%2C661%2C9404%2C23826%2C9500%2C25959%2C70719%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1537%2C20454%2C8214%2C4115%2C11462%2C12279%2C8%2C34001%2C10303%2C3027%2C26539%2C3843%2C18500%2C28975%2C2513%2C1180%2C33293%2C18133%2C3%2C5702%2C6957%2C2008%2C121%2C21709%2C4595%2C9280%2C760%2C8204%2C2266%2C4783%2C8892%2C175%2C6635%2C3926%2C3884%2C9786%2C2263%2C6635%2C2786%2C635%2C1804%2C10%2C4270%2C451%2C3810%2C751%2C1627%2C441%2C4822%2C974%2C184%2C2344%2C3124%2C1646%2C6173%2C157%2C4345%2C148%2C7407%2C4565%2C490%2C7778%2C3041%2C1573%2C581%2C205%2C1799%2C1385%2C434%2C134%2C2%2C12921%2C817%2C259%2C6967%2C1209%2C230%2C67%2C204%2C826%2C571%2C1599%2C554%2C247%2C5985%2C20992%2C4859&cl=1018714565&seq=1&docid=KVHa83JkUV0&ei=tGn5asrhNPXY8uMPuoCL-AY&event=streamingstats&plid=AAZgTD00MICBD4e4&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.170:B,0.958:B,0.958:B&cat=streaming,sabr&cmt=0.170:0.000,0.958:0.000&afs=0.947:251;CggKA2RyYxIBMQ::i:fl.-14;tl.-14;vg.-4.359999999999999;nm.1;sms.2:CAEoAQ&vfs=0.958:397:396::a:sms.2:CAEoAQ&view=0.958:388:217&bwm=0.958:198912:0.367&bwe=0.958:108134&bat=0.958:0.89:0&vis=0.958:0&bh=0.958:0.000&qclc=ChBwdHFuSm94Y2F2dHV5eDVWEAE"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/sddefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/mqdefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/mqdefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/ck=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywH2F1qjxuFC4iegObv4eqW5qnKL-g/m=Nuilue"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi/wucnXCMhRaM/default.jpg?sqp=-oaymwEkCHgQWvKriqkDGvABAfgB_gmAAtAFigIMCAAQARhlIEgoQTAP&rs=AOn4CLB4Q3ijT6szoPGPwR5SgsIEWlylcA"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/playback?ns=yt&el=embedded&cpn=ptqnJoxcavtuyx5V&ver=2&cmt=0.004&fmt=397&fs=0&rt=1.296&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=1365&cl=1018714565&mos=0&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&epm=1&hl=en_US&cr=MA&len=151&fexp=v1%2C100673025%2C1884%2C364%2C-76670629%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C69796%2C30906%2C15105%2C25059%2C4174%2C30446%2C18706%2C26008%2C13016%2C11422%2C4004%2C661%2C9404%2C23826%2C9500%2C25959%2C70719%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1537%2C20454%2C8214%2C4115%2C11462%2C12279%2C8%2C34001%2C10303%2C3027%2C26539%2C3843%2C18500%2C28975%2C2513%2C1180%2C33293%2C18133%2C3%2C5702%2C6957%2C2008%2C121%2C21709%2C4595%2C9280%2C760%2C8204%2C2266%2C4783%2C8892%2C175%2C6635%2C3926%2C3884%2C9786%2C2263%2C6635%2C2786%2C635%2C1804%2C10%2C4270%2C451%2C3810%2C751%2C1627%2C441%2C4822%2C974%2C184%2C2344%2C3124%2C1646%2C6173%2C157%2C4345%2C148%2C7407%2C4565%2C490%2C7778%2C3041%2C1573%2C581%2C205%2C1799%2C1385%2C434%2C134%2C2%2C12921%2C817%2C259%2C6967%2C1209%2C230%2C67%2C204%2C826%2C571%2C1599%2C554%2C247%2C5985%2C20992%2C4859&rtn=9&afmt=251&size=388%3A217&inview=0&muted=0&docid=KVHa83JkUV0&ei=tGn5asrhNPXY8uMPuoCL-AY&plid=AAZgTD00MICBD4e4&referrer=https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2FKVHa83JkUV0%3Fautoplay%3D1%26playsinline%3D1%26rel%3D0&of=BxxvRzYmLqFg7zqpbtdwaw&vm=CAEQABgEOjJBSHFpSlRKN3VYQldYT25KWDB0Y3BVV01SeENXOHdzWGpCeGxtN3IwNEdYcm9IOG5DZ2JoQUJjV25zU2dScEdfMXZYTHpsb0pUUG84YVFISUtPX19YMko4Vl85cmxMMjlSWmpnU1JrN1VqaWNROUpxOTA0cUt1OUJDc21OcGRvVDlhSGJXWno1MmNlSHh4SkRVakhHeGMzNTRoUno"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/ptracking?html5=1&video_id=KVHa83JkUV0&cpn=ptqnJoxcavtuyx5V&ei=tGn5asrhNPXY8uMPuoCL-AY&ptk=youtube_none&pltype=contentugc"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/generate_204?xXNcEw"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752020&ei=tGn5asrhNPXY8uMPuoCL-AY&ip=105.190.211.133&id=o-AFsMJ0BBnaX--grnhr4hR-KnvG4XpZNqZK7GJ4NdlfIR&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=264&met=1794730420%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZpTqqwGOYYkYHzvdxgE2WhooYOZI8C4PGA2f-ZOlHRbCFjtwco-TuR4nsM2O6eYH1uI&svpuc=1&ns=6i8LnSX2K8MZLdD3U9mKmsIa&sabr=1&rqh=1&mt=1794729961&fvip=1&epbp=1&keepalive=yes&fexp=51565115%2C52323633&c=WEB_EMBEDDED_PLAYER&n=tq9ITpSXQtY1Kw&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRgIhAN_y0HX5SzZcRbDWwrOFLWcQZUuvNVnH3cH2KA9VT9xLAiEApkff7tLrhe_hObS5spQ3HLlonyETHRE90fgQeo3wxNU%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAIdEY6LGMMc1RT2GHnVGvQxhpxUt-D1su30QQzNY2ECKAiEA4gCl5EDPsER1pYXJUmM3trGvq26ZI-wybFT5PIZOYlA%3D&cpn=ptqnJoxcavtuyx5V&cver=2.20261113.01.00&rn=2&alr=yes"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/atr?ns=yt&el=embedded&cpn=ptqnJoxcavtuyx5V&ver=2&cmt=2.986&fmt=397&fs=0&rt=4.311&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=4380&cl=1018714565&mos=0&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&epm=1&hl=en_US&cr=MA&len=151&fexp=v1%2C100673025%2C1884%2C364%2C-76670629%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C23206%2C69796%2C30906%2C15105%2C25059%2C4174%2C30446%2C18706%2C26008%2C13016%2C11422%2C4004%2C661%2C9404%2C23826%2C9500%2C25959%2C70719%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1537%2C20454%2C8214%2C4115%2C11462%2C12279%2C8%2C34001%2C10303%2C3027%2C26539%2C3843%2C18500%2C28975%2C2513%2C1180%2C33293%2C18133%2C3%2C5702%2C6957%2C2008%2C121%2C21709%2C4595%2C9280%2C760%2C8204%2C2266%2C4783%2C8892%2C175%2C6635%2C3926%2C3884%2C9786%2C2263%2C6635%2C2786%2C635%2C1804%2C10%2C4270%2C451%2C3810%2C751%2C1627%2C441%2C4822%2C974%2C184%2C2344%2C3124%2C1646%2C6173%2C157%2C4345%2C148%2C7407%2C4565%2C490%2C7778%2C3041%2C1573%2C581%2C205%2C1799%2C1385%2C434%2C134%2C2%2C12921%2C817%2C259%2C6967%2C1209%2C230%2C67%2C204%2C826%2C571%2C1599%2C554%2C247%2C5985%2C20992%2C4859&afmt=251&muted=0&docid=KVHa83JkUV0&ei=tGn5asrhNPXY8uMPuoCL-AY&plid=AAZgTD00MICBD4e4&vm=CAEQABgEOjJBSHFpSlRKN3VYQldYT25KWDB0Y3BVV01SeENXOHdzWGpCeGxtN3IwNEdYcm9IOG5DZ2JoQUJjV25zU2dScEdfMXZYTHpsb0pUUG84YVFISUtPX19YMko4Vl85cmxMMjlSWmpnU1JrN1VqaWNROUpxOTA0cUt1OUJDc21OcGRvVDlhSGJXWno1MmNlSHh4SkRVakhHeGMzNTRoUno"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752020&ei=tGn5asrhNPXY8uMPuoCL-AY&ip=105.190.211.133&id=o-AFsMJ0BBnaX--grnhr4hR-KnvG4XpZNqZK7GJ4NdlfIR&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=264&met=1794730420%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZpTqqwGOYYkYHzvdxgE2WhooYOZI8C4PGA2f-ZOlHRbCFjtwco-TuR4nsM2O6eYH1uI&svpuc=1&ns=6i8LnSX2K8MZLdD3U9mKmsIa&sabr=1&rqh=1&mt=1794729961&fvip=1&epbp=1&keepalive=yes&fexp=51565115%2C52323633&c=WEB_EMBEDDED_PLAYER&n=tq9ITpSXQtY1Kw&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRgIhAN_y0HX5SzZcRbDWwrOFLWcQZUuvNVnH3cH2KA9VT9xLAiEApkff7tLrhe_hObS5spQ3HLlonyETHRE90fgQeo3wxNU%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAIdEY6LGMMc1RT2GHnVGvQxhpxUt-D1su30QQzNY2ECKAiEA4gCl5EDPsER1pYXJUmM3trGvq26ZI-wybFT5PIZOYlA%3D&cpn=ptqnJoxcavtuyx5V&cver=2.20261113.01.00&rn=3&alr=yes"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752020&ei=tGn5asrhNPXY8uMPuoCL-AY&ip=105.190.211.133&id=o-AFsMJ0BBnaX--grnhr4hR-KnvG4XpZNqZK7GJ4NdlfIR&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=264&met=1794730420%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZpTqqwGOYYkYHzvdxgE2WhooYOZI8C4PGA2f-ZOlHRbCFjtwco-TuR4nsM2O6eYH1uI&svpuc=1&ns=6i8LnSX2K8MZLdD3U9mKmsIa&sabr=1&rqh=1&mt=1794729961&fvip=1&epbp=1&keepalive=yes&fexp=51565115%2C52323633&c=WEB_EMBEDDED_PLAYER&n=tq9ITpSXQtY1Kw&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRgIhAN_y0HX5SzZcRbDWwrOFLWcQZUuvNVnH3cH2KA9VT9xLAiEApkff7tLrhe_hObS5spQ3HLlonyETHRE90fgQeo3wxNU%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAIdEY6LGMMc1RT2GHnVGvQxhpxUt-D1su30QQzNY2ECKAiEA4gCl5EDPsER1pYXJUmM3trGvq26ZI-wybFT5PIZOYlA%3D&cpn=ptqnJoxcavtuyx5V&cver=2.20261113.01.00&rn=4&alr=yes"
+        }
+      ],
+      "screenshots": {
+        "fullPageFacade": "qa\\screenshots\\video-showcase-mobile-430.png",
+        "showcaseFacade": "qa\\screenshots\\video-block-mobile-430.png",
+        "showcasePlaying": "qa\\screenshots\\video-player-mobile-430.png"
+      }
+    },
+    {
+      "name": "mobile-390",
+      "dimensions": "390x844",
+      "pageStatus": 200,
+      "orderedBetweenHeroAndGameplay": true,
+      "iframeAbsentUntilActivation": true,
+      "keyboardActivation": true,
+      "iframeAttrs": {
+        "src": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+        "title": "Ragnarok: The New World | First Global Full Gameplay Trailer Released",
+        "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "playerPlaybackState": {
+        "readyState": 4,
+        "currentTime": 0.509337,
+        "paused": false,
+        "dimensions": "640x360"
+      },
+      "facadeRatio": {
+        "width": 350,
+        "height": 196.875,
+        "ratio": 1.7777777777777777,
+        "cssAspectRatio": "16 / 9"
+      },
+      "postActivationViewportWidth": 350,
+      "originalEightSectionCount": 8,
+      "fallbackLink": {
+        "href": "https://www.youtube.com/watch?v=KVHa83JkUV0",
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      "axe": {
+        "beforeViolations": [],
+        "afterViolations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "description": "Elements must only use supported ARIA attributes",
+            "nodes": [
+              {
+                "target": [
+                  "iframe",
+                  ".ytmVideoInfoVideoTitle"
+                ],
+                "html": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=KVHa83JkUV0\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">Ragnarok: The New World｜First Global Full Gameplay Trailer Released</span></a>",
+                "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-level=\"2\""
+              }
+            ]
+          },
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "description": "Elements must only use permitted ARIA attributes",
+            "nodes": [
+              {
+                "target": [
+                  "iframe",
+                  "#movie_player"
+                ],
+                "html": "<div class=\"html5-video-player y...\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/player/fad7e4e9/p...\" aria-label=\"YouTube Video Player\">",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+              }
+            ]
+          }
+        ],
+        "afterHostViolations": [],
+        "incompleteBefore": 37,
+        "incompleteAfter": 55,
+        "incompleteAfterHost": 35,
+        "passed": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://yt3.ggpht.com/c7qPSIg-8txLG4Tte22549Pfsqpp0wEGY2zoK_QG1FoKiCuwhMhywmRCoyQ194TS_eaSUGmt=s68-c-k-c0x00ffffff-no-rj",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://yt3.ggpht.com/c7qPSIg-8txLG4Tte22549Pfsqpp0wEGY2zoK_QG1FoKiCuwhMhywmRCoyQ194TS_eaSUGmt=s68-c-k-c0x00ffffff-no-rj",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "httpErrors": [],
+      "youtubeRequests": [
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi/KVHa83JkUV0/sddefault.jpg"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/player/fad7e4e9/www-player.css"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/ss/k=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/br=1/rs=AGKMywEZYpvUIfT_grF6IvzhDKapDmM9vw/m=root,base"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/am=AAAAABAAGAM/d=1/excm=base,root/br=1/rs=AGKMywFJ7awhRgUuA-_WF1IbuEN33vmYEA/m=root,base"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/player/fad7e4e9/player_embed_tcc.vflset/en_US/base.js"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/ck=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywH2F1qjxuFC4iegObv4eqW5qnKL-g/m=r78Drb"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/navigation/resolve_url?prettyPrint=false"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/generate_204?mF3Fiw"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752036&ei=xGn5asFgz7Ly4w_D442IBg&ip=105.190.211.133&id=o-AIuUvlBZRGDEb68AOR6g0WU5yXWaF_3GbhAgeb1QKzqx&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=245&met=1794730436%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZvkfL2G00i6Qt7wfb13RP_TNaa73kFdWgUHiN5nz9UUZIFrE7uN00WT1Sz-4hrhmQUE&svpuc=1&ns=AEMkH39mDmsjzxFIycZjwTwa&sabr=1&rqh=1&mt=1794729961&fvip=1&epbp=1&keepalive=yes&fexp=51565116%2C52227521%2C52323633%2C52338434&c=WEB_EMBEDDED_PLAYER&n=H8ImUndUGrPS_w&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRgIhAKXdULdqr33p0_fIZRNNgx5_lPEK61_6vrTkittvzrUvAiEAq9ShWowMoR4xQrYPL__eNMPsEll_D_UtFvOgOqmbm-A%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgRcOn4mEay6sB3ZLlOuPyUt90ozguZUT60zMNQjdj494CIE_heG7_vVJfyPArj7ZxqopSg_jzfjRDGV-dzmANMZsG&cpn=XiwiRsHDoqnpUDoa&cver=2.20261113.01.00&rn=1&alr=yes"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/qoe?fmt=396&afmt=251&cpn=XiwiRsHDoqnpUDoa&el=embedded&ns=yt&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C494888%2C26564111%2C34656%2C47716%2C76958%2C117689%2C9252%2C16509%2C6255%2C16951%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13016%2C15426%2C661%2C9404%2C23826%2C9500%2C25958%2C29513%2C41207%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1538%2C32782%2C11462%2C46288%2C13330%2C26539%2C3844%2C18499%2C28976%2C2512%2C1180%2C33292%2C18134%2C4%2C5701%2C6957%2C2008%2C120%2C21710%2C4595%2C6340%2C2940%2C760%2C8204%2C2266%2C4783%2C8893%2C3128%2C3682%2C3925%2C3884%2C9786%2C2264%2C6634%2C3421%2C1814%2C4270%2C451%2C3811%2C750%2C1627%2C441%2C4822%2C973%2C2529%2C3124%2C1646%2C10675%2C149%2C7406%2C4565%2C490%2C7778%2C3041%2C2154%2C205%2C1798%2C1386%2C255%2C312%2C4%2C10841%2C2080%2C816%2C8435%2C229%2C43%2C27%2C1028%2C571%2C1599%2C802%2C5985%2C2801%2C23048&cl=1018714565&seq=1&docid=KVHa83JkUV0&ei=xGn5asFgz7Ly4w_D442IBg&event=streamingstats&plid=AAZgTD4bcNj9HX4k&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&vps=0.000:N,0.141:B,1.203:B,1.203:B&cat=streaming,sabr&cmt=0.141:0.000,1.203:0.000&afs=1.190:251;CggKA2RyYxIBMQ::i:fl.-14;tl.-14;vg.-4.359999999999999;nm.1;sms.2:CAEoAQ&vfs=1.203:396:396::a:sms.2:CAEoAQ&view=1.203:348:195&bwm=1.203:248069:0.385&bwe=1.203:101581&bat=1.203:0.89:0&vis=1.203:0&bh=1.203:0.000&qclc=ChBYaXdpUnNIRG9xbnBVRG9hEAE"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/sddefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.gstatic.com/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_max/v3/24px.svg"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.fxd8fRq9O_o.es5.O/ck=ytembeds.base.BMVdYHuuIjI.L.W.O/am=AAAAABAAGAM/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywH2F1qjxuFC4iegObv4eqW5qnKL-g/m=Nuilue"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/-b6qfLpfPJI/default.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/mqdefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://i.ytimg.com/vi_webp/KVHa83JkUV0/mqdefault.webp"
+        },
+        {
+          "status": 200,
+          "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/ptracking?html5=1&video_id=KVHa83JkUV0&cpn=XiwiRsHDoqnpUDoa&ei=xGn5asFgz7Ly4w_D442IBg&ptk=youtube_none&pltype=contentugc"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/playback?ns=yt&el=embedded&cpn=XiwiRsHDoqnpUDoa&ver=2&cmt=0.027&fmt=396&fs=0&rt=1.732&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=1796&cl=1018714565&mos=0&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&epm=1&hl=en_US&cr=MA&len=150.061&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C494888%2C26564111%2C34656%2C47716%2C76958%2C117689%2C9252%2C16509%2C6255%2C16951%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13016%2C15426%2C661%2C9404%2C23826%2C9500%2C25958%2C29513%2C41207%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1538%2C32782%2C11462%2C46288%2C13330%2C26539%2C3844%2C18499%2C28976%2C2512%2C1180%2C33292%2C18134%2C4%2C5701%2C6957%2C2008%2C120%2C21710%2C4595%2C6340%2C2940%2C760%2C8204%2C2266%2C4783%2C8893%2C3128%2C3682%2C3925%2C3884%2C9786%2C2264%2C6634%2C3421%2C1814%2C4270%2C451%2C3811%2C750%2C1627%2C441%2C4822%2C973%2C2529%2C3124%2C1646%2C10675%2C149%2C7406%2C4565%2C490%2C7778%2C3041%2C2154%2C205%2C1798%2C1386%2C255%2C312%2C4%2C10841%2C2080%2C816%2C8435%2C229%2C43%2C27%2C1028%2C571%2C1599%2C802%2C5985%2C2801%2C23048&rtn=5&afmt=251&size=348%3A195&inview=0&muted=0&docid=KVHa83JkUV0&ei=xGn5asFgz7Ly4w_D442IBg&plid=AAZgTD4bcNj9HX4k&referrer=https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2FKVHa83JkUV0%3Fautoplay%3D1%26playsinline%3D1%26rel%3D0&of=BxxvRzYmLqFg7zqpbtdwaw&vm=CAEQABgEOjJBSHFpSlRJTHljakxXd01fWUxSWkMtRWlsUkF0NHlkMFpTSGZUNW01dGVsa1VLc2Y5Z2JoQUJjV25zUV92QmIzWU5LVW9tanhsY0JrLU1XQV9NM3YtaG1teS12cmI4bFFSM1dGZ1dfdUdDTUNDRzNFZkxGOTd1MXpTdHlOd2NRYW9TZWRjY0tkamM1VHA5TXJpcV9qS1c2YXlMYW0"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/embed/establish_zw"
+        },
+        {
+          "status": 200,
+          "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/atr?ns=yt&el=embedded&cpn=XiwiRsHDoqnpUDoa&ver=2&cmt=3.04&fmt=396&fs=0&rt=4.739&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=4804&cl=1018714565&mos=0&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&epm=1&hl=en_US&cr=MA&len=150.061&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C494888%2C26564111%2C34656%2C47716%2C76958%2C117689%2C9252%2C16509%2C6255%2C16951%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13016%2C15426%2C661%2C9404%2C23826%2C9500%2C25958%2C29513%2C41207%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1538%2C32782%2C11462%2C46288%2C13330%2C26539%2C3844%2C18499%2C28976%2C2512%2C1180%2C33292%2C18134%2C4%2C5701%2C6957%2C2008%2C120%2C21710%2C4595%2C6340%2C2940%2C760%2C8204%2C2266%2C4783%2C8893%2C3128%2C3682%2C3925%2C3884%2C9786%2C2264%2C6634%2C3421%2C1814%2C4270%2C451%2C3811%2C750%2C1627%2C441%2C4822%2C973%2C2529%2C3124%2C1646%2C10675%2C149%2C7406%2C4565%2C490%2C7778%2C3041%2C2154%2C205%2C1798%2C1386%2C255%2C312%2C4%2C10841%2C2080%2C816%2C8435%2C229%2C43%2C27%2C1028%2C571%2C1599%2C802%2C5985%2C2801%2C23048&afmt=251&muted=0&docid=KVHa83JkUV0&ei=xGn5asFgz7Ly4w_D442IBg&plid=AAZgTD4bcNj9HX4k&vm=CAEQABgEOjJBSHFpSlRJTHljakxXd01fWUxSWkMtRWlsUkF0NHlkMFpTSGZUNW01dGVsa1VLc2Y5Z2JoQUJjV25zUV92QmIzWU5LVW9tanhsY0JrLU1XQV9NM3YtaG1teS12cmI4bFFSM1dGZ1dfdUdDTUNDRzNFZkxGOTd1MXpTdHlOd2NRYW9TZWRjY0tkamM1VHA5TXJpcV9qS1c2YXlMYW0"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/watchtime?ns=yt&el=embedded&cpn=XiwiRsHDoqnpUDoa&ver=2&cmt=3.313&fmt=396&fs=0&rt=5.014&euri=http%3A%2F%2F127.0.0.1%3A8767%2F&lact=5078&cl=1018714565&state=playing&volume=100&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&autoplay=1&hl=en_US&cr=MA&len=150.061&rtn=15&afmt=251&idpj=-7&ldpj=-1&rti=5&size=348%3A195&inview=0&st=0&et=3.313&muted=0&docid=KVHa83JkUV0&ei=xGn5asFgz7Ly4w_D442IBg&plid=AAZgTD4bcNj9HX4k&referrer=https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2FKVHa83JkUV0%3Fautoplay%3D1%26playsinline%3D1%26rel%3D0&of=BxxvRzYmLqFg7zqpbtdwaw&vm=CAEQABgEOjJBSHFpSlRJTHljakxXd01fWUxSWkMtRWlsUkF0NHlkMFpTSGZUNW01dGVsa1VLc2Y5Z2JoQUJjV25zUV92QmIzWU5LVW9tanhsY0JrLU1XQV9NM3YtaG1teS12cmI4bFFSM1dGZ1dfdUdDTUNDRzNFZkxGOTd1MXpTdHlOd2NRYW9TZWRjY0tkamM1VHA5TXJpcV9qS1c2YXlMYW0"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752036&ei=xGn5asFgz7Ly4w_D442IBg&ip=105.190.211.133&id=o-AIuUvlBZRGDEb68AOR6g0WU5yXWaF_3GbhAgeb1QKzqx&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=245&met=1794730436%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZvkfL2G00i6Qt7wfb13RP_TNaa73kFdWgUHiN5nz9UUZIFrE7uN00WT1Sz-4hrhmQUE&svpuc=1&ns=AEMkH39mDmsjzxFIycZjwTwa&sabr=1&rqh=1&mt=1794729961&fvip=1&epbp=1&keepalive=yes&fexp=51565116%2C52227521%2C52323633%2C52338434&c=WEB_EMBEDDED_PLAYER&n=H8ImUndUGrPS_w&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRgIhAKXdULdqr33p0_fIZRNNgx5_lPEK61_6vrTkittvzrUvAiEAq9ShWowMoR4xQrYPL__eNMPsEll_D_UtFvOgOqmbm-A%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgRcOn4mEay6sB3ZLlOuPyUt90ozguZUT60zMNQjdj494CIE_heG7_vVJfyPArj7ZxqopSg_jzfjRDGV-dzmANMZsG&cpn=XiwiRsHDoqnpUDoa&cver=2.20261113.01.00&rn=2&alr=yes"
+        },
+        {
+          "status": 204,
+          "url": "https://www.youtube-nocookie.com/api/stats/qoe?fmt=397&afmt=251&cpn=XiwiRsHDoqnpUDoa&el=embedded&ns=yt&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C494888%2C26564111%2C34656%2C47716%2C76958%2C117689%2C9252%2C16509%2C6255%2C16951%2C100702%2C15105%2C25059%2C4174%2C30447%2C18705%2C26008%2C13016%2C15426%2C661%2C9404%2C23826%2C9500%2C25958%2C29513%2C41207%2C20588%2C4199%2C39295%2C59015%2C1168%2C8131%2C1538%2C32782%2C11462%2C46288%2C13330%2C26539%2C3844%2C18499%2C28976%2C2512%2C1180%2C33292%2C18134%2C4%2C5701%2C6957%2C2008%2C120%2C21710%2C4595%2C6340%2C2940%2C760%2C8204%2C2266%2C4783%2C8893%2C3128%2C3682%2C3925%2C3884%2C9786%2C2264%2C6634%2C3421%2C1814%2C4270%2C451%2C3811%2C750%2C1627%2C441%2C4822%2C973%2C2529%2C3124%2C1646%2C10675%2C149%2C7406%2C4565%2C490%2C7778%2C3041%2C2154%2C205%2C1798%2C1386%2C255%2C312%2C4%2C10841%2C2080%2C816%2C8435%2C229%2C43%2C27%2C1028%2C571%2C1599%2C802%2C5985%2C2801%2C23048&cl=1018714565&seq=2&docid=KVHa83JkUV0&ei=xGn5asFgz7Ly4w_D442IBg&event=streamingstats&plid=AAZgTD4bcNj9HX4k&cbr=HeadlessChrome&cbrver=157.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261113.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&user_intent=0.02&bh=1.729:18.033,5.131:14.694&cmt=1.729:0.027,2.489:0.789,5.131:3.431&vps=1.729:PL,5.131:PL,5.131:PL&vfs=5.131:397:396:396:a:CAIoAQ&view=5.131:348:195&bwm=5.131:807186:0.441&bwe=5.131:811121&bat=5.131:0.89:0&df=5.131:0&qclc=ChBYaXdpUnNIRG9xbnBVRG9hEAI"
+        },
+        {
+          "status": 200,
+          "url": "https://rr7---sn-hxqpuxa-uobe.googlevideo.com/videoplayback?expire=1794752036&ei=xGn5asFgz7Ly4w_D442IBg&ip=105.190.211.133&id=o-AIuUvlBZRGDEb68AOR6g0WU5yXWaF_3GbhAgeb1QKzqx&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=245&met=1794730436%2C&mh=kw&mm=31%2C29&mn=sn-hxqpuxa-uobe%2Csn-ajh5qc-5w&ms=au%2Crdu&mv=m&mvi=7&pl=22&rms=au%2Cau&pcm2=no&initcwndbps=830500&spc=nfZ8ZvkfL2G00i6Qt7wfb13RP_TNaa73kFdWgUHiN5nz9UUZIFrE7uN00WT1Sz-4hrhmQUE&svpuc=1&ns=AEMkH39mDmsjzxFIycZjwTwa&sabr=1&rqh=1&mt=1794729961&fvip=1&epbp=1&keepalive=yes&fexp=51565116%2C52227521%2C52323633%2C52338434&c=WEB_EMBEDDED_PLAYER&n=H8ImUndUGrPS_w&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRgIhAKXdULdqr33p0_fIZRNNgx5_lPEK61_6vrTkittvzrUvAiEAq9ShWowMoR4xQrYPL__eNMPsEll_D_UtFvOgOqmbm-A%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgRcOn4mEay6sB3ZLlOuPyUt90ozguZUT60zMNQjdj494CIE_heG7_vVJfyPArj7ZxqopSg_jzfjRDGV-dzmANMZsG&cpn=XiwiRsHDoqnpUDoa&cver=2.20261113.01.00&rn=3&alr=yes"
+        }
+      ],
+      "screenshots": {
+        "fullPageFacade": "qa\\screenshots\\video-showcase-mobile-390.png",
+        "showcaseFacade": "qa\\screenshots\\video-block-mobile-390.png",
+        "showcasePlaying": "qa\\screenshots\\video-player-mobile-390.png"
+      }
+    }
+  ],
+  "chromiumVersion": "157.0.8103.52"
+}

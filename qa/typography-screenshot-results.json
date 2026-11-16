@@ -1,0 +1,86 @@
+{
+  "playwright": "1.65.1",
+  "chromium": "157.0.8103.52",
+  "results": [
+    {
+      "viewport": "1920x1080",
+      "status": 200,
+      "fullPage": "qa/screenshots/typography-desktop-1920-full.png",
+      "focused": {
+        "hero": "qa/screenshots/typography-desktop-1920-hero.png",
+        "activities": "qa/screenshots/typography-desktop-1920-activities.png"
+      },
+      "layout": {
+        "width": 1920,
+        "viewport": 1920,
+        "overflow": false
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": "1440x900",
+      "status": 200,
+      "fullPage": "qa/screenshots/typography-desktop-1440-full.png",
+      "focused": {
+        "hero": "qa/screenshots/typography-desktop-1440-hero.png",
+        "activities": "qa/screenshots/typography-desktop-1440-activities.png"
+      },
+      "layout": {
+        "width": 1440,
+        "viewport": 1440,
+        "overflow": false
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": "1024x768",
+      "status": 200,
+      "fullPage": "qa/screenshots/typography-tablet-1024-full.png",
+      "focused": {
+        "hero": "qa/screenshots/typography-tablet-1024-hero.png",
+        "activities": "qa/screenshots/typography-tablet-1024-activities.png"
+      },
+      "layout": {
+        "width": 1024,
+        "viewport": 1024,
+        "overflow": false
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": "430x932",
+      "status": 200,
+      "fullPage": "qa/screenshots/typography-mobile-430-full.png",
+      "focused": {
+        "hero": "qa/screenshots/typography-mobile-430-hero.png",
+        "activities": "qa/screenshots/typography-mobile-430-activities.png"
+      },
+      "layout": {
+        "width": 430,
+        "viewport": 430,
+        "overflow": false
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": "390x844",
+      "status": 200,
+      "fullPage": "qa/screenshots/typography-mobile-390-full.png",
+      "focused": {
+        "hero": "qa/screenshots/typography-mobile-390-hero.png",
+        "activities": "qa/screenshots/typography-mobile-390-activities.png"
+      },
+      "layout": {
+        "width": 390,
+        "viewport": 390,
+        "overflow": false
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  ]
+}
