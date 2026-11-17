@@ -139,6 +139,7 @@ Candidate uses:
 - [x] Run hosted Lighthouse desktop and mobile audits and record actual scores.
 - [x] Capture hosted desktop and mobile viewport screenshots.
 - [x] Re-enable SSO protection after hosted verification.
+- [x] Disable SSO protection for `ragnarok-lp` so the approved Preview URL is publicly accessible by link.
 - [x] Create `VERCEL_DEPLOYMENT_REPORT.md`.
 - [ ] Configure a Git-connected Vercel deployment workflow.
 - [ ] Obtain commercial media rights clearance.

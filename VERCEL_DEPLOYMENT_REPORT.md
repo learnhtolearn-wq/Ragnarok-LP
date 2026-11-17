@@ -13,7 +13,7 @@ Date: 2026-11-17
 - Status at deployment: READY
 - Source commit: `1b55168` on `main`
 - Static configuration: root `index.html`, no build system, relative CSS, JavaScript, and asset paths.
-- Deployment protection: SSO was temporarily disabled for hosted verification, then re-enabled. The final project setting is SSO enabled for production deployment URLs and all previews.
+- Deployment protection: SSO is disabled for this project so anyone with the Preview URL can open the page without a Vercel account.
 - Production aliases: the unintended aliases created by the first CLI deployment were removed. No production alias is currently assigned to this Preview deployment.
 
 ## Hosted HTTPS checks
@@ -61,7 +61,7 @@ Chromium rejected full-page screenshot capture for the hosted page with `Protoco
 
 ## Known limitations
 
-- The Preview is protected by SSO again. Reviewers need access to the authenticated Vercel account or the project must temporarily have SSO disabled again.
+- SSO is disabled for this project by explicit review approval. Re-enable it if the Preview should become private again.
 - The Preview was deployed from the local checkout after the GitHub push. A Git-connected Vercel deployment hook was not configured.
 - Commercial artwork and YouTube media rights remain unverified.
 - AFBooster was not configured.
