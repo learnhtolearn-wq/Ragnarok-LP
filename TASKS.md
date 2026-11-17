@@ -130,5 +130,21 @@ Candidate uses:
 - [ ] List unresolved limitations and rights issues.
 - [ ] Submit public hosted URL unless Academy instructions change.
 
+## Phase 5A: Vercel Preview deployment, 2026-11-17
+- [x] Push the current project state to the public GitHub repository `learnhtolearn-wq/Ragnarok-LP`.
+- [x] Create the Vercel project `ragnarok-lp` under the authenticated team scope.
+- [x] Deploy a Vercel Preview from the approved static project.
+- [x] Verify HTTPS page response, key local assets, favicon, Steam CTA hrefs, FAQ, mobile navigation, and YouTube facade.
+- [x] Confirm the YouTube iframe received the Preview Referer over HTTPS.
+- [x] Run hosted Lighthouse desktop and mobile audits and record actual scores.
+- [x] Capture hosted desktop and mobile viewport screenshots.
+- [x] Re-enable SSO protection after hosted verification.
+- [x] Create `VERCEL_DEPLOYMENT_REPORT.md`.
+- [ ] Configure a Git-connected Vercel deployment workflow.
+- [ ] Obtain commercial media rights clearance.
+- [ ] Configure AFBooster or campaign tracking.
+- [ ] Create a production alias or publish the campaign.
+- [ ] Verify first-login attribution end to end.
+
 ## Immediate instruction
 The official gameplay trailer showcase and its local browser QA are complete for review. Do not proceed to AFBooster publication or configuration without separate approval. Commercial media rights remain unverified.
