@@ -1,0 +1,87 @@
+{
+  "base": "https://ragnarok-dra4mqnwb-learnhtolearn-3709s-projects.vercel.app",
+  "browser": "157.0.8103.52",
+  "viewports": [
+    {
+      "viewport": "1920x1080",
+      "pageStatus": 200,
+      "steamLinks": 6,
+      "localAssetCount": 12,
+      "allLocalAssets200": true,
+      "failedAssets": [],
+      "faqCount": 4,
+      "iframeRequest": {
+        "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+        "referer": "https://ragnarok-dra4mqnwb-learnhtolearn-3709s-projects.vercel.app/"
+      },
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "viewport": "1440x900",
+      "pageStatus": 200,
+      "steamLinks": 6,
+      "localAssetCount": 12,
+      "allLocalAssets200": true,
+      "failedAssets": [],
+      "faqCount": 4,
+      "iframeRequest": {
+        "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+        "referer": "https://ragnarok-dra4mqnwb-learnhtolearn-3709s-projects.vercel.app/"
+      },
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "viewport": "390x844",
+      "pageStatus": 200,
+      "steamLinks": 6,
+      "localAssetCount": 12,
+      "allLocalAssets200": true,
+      "failedAssets": [],
+      "faqCount": 4,
+      "iframeRequest": {
+        "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+        "referer": "https://ragnarok-dra4mqnwb-learnhtolearn-3709s-projects.vercel.app/"
+      },
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "viewport": "430x932",
+      "pageStatus": 200,
+      "steamLinks": 6,
+      "localAssetCount": 12,
+      "allLocalAssets200": true,
+      "failedAssets": [],
+      "faqCount": 4,
+      "iframeRequest": {
+        "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+        "referer": "https://ragnarok-dra4mqnwb-learnhtolearn-3709s-projects.vercel.app/"
+      },
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://www.youtube-nocookie.com/embed/KVHa83JkUV0?autoplay=1&playsinline=1&rel=0",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    }
+  ],
+  "checkedAt": "2026-11-17T00:41:32.413Z"
+}
